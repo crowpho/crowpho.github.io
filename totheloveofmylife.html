@@ -1,3 +1,7 @@
+1 reference
+It looks like there was an extra closing brace in your CSS that might be causing issues. Here is the corrected code for the totheloveofmylife.html file:
+
+HTML
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,21 +32,20 @@
             color: white;
             border-radius: 5px;
         }
-      .popup {
-        display: none;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: white;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-        text-align: center;
-        max-height: 400px; /* Set a max height */
-        overflow-y: auto; /* Enable vertical scrolling */
-        width: 300px; /* Adjust width if needed */
-       }
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-height: 400px; /* Set a max height */
+            overflow-y: auto; /* Enable vertical scrolling */
+            width: 300px; /* Adjust width if needed */
         }
         .spotify {
             margin-top: 20px;
@@ -63,7 +66,7 @@
         <p>To: the prettiest girl in the world ♡<br>From: ur secret lover</p>
         <button class="button" onclick="showPopup('giftPopup')">📜 Read me ♡</button>
         <div id="giftPopup" class="popup">
-            <p>happy Valentine's Day honey~ i know everything has been so hectic but you mean the world to me. I love u so so so much. I don't know what I'd do without u and spending time with you is the most relaxing and fun thing I could ever do. ILYSM HONEY you're amazing and you deserve the best. ILYSM~ ❤️</p>
+            <p>happy Valentine's Day honey~ i know everything has been so hectic but you mean the world to me. I love u so so so much. I don't know what I'd do without u and spending time with you is always amazing.</p>
             <button class="button" onclick="closePopup('giftPopup')">Close</button>
         </div>
         
@@ -100,7 +103,6 @@
             <p>28. you let me talk ab my interests even when u don't have a clue what i'm going on ab.</p>
             <p>29. you laugh at my jokes.</p>
             <p>30. you're so cute and the best thing that ever happened to me.</p>
-            <p> </p>
             <p> hehe... OTHER 70 COMING SOON BABY I LOVE YOU SO SO SO SO MUCH BABY I LOVE YOU MUAH~ HAPPY VALENTINES DAY MY DARLING I LOVE UUUU~</p>
             <button class="button" onclick="closePopup('lovePopup')">Close</button>
         </div>
